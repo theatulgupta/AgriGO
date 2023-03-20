@@ -16,9 +16,9 @@ class HomeScreen extends StatelessWidget {
 
   var articles = [
     "Increase Wheat Production",
-    "Increase Wheat Production",
-    "Increase Wheat Production",
-    "Increase Wheat Production",
+    "Increase Rice Production",
+    "Increase Sugarcane Production",
+    "Increase Mustard Production",
   ];
 
   @override
@@ -69,21 +69,20 @@ class HomeScreen extends StatelessWidget {
           VxBox(
             child: Column(children: [
               25.heightBox,
-              "Maximize Your Harvest\nwith AI-Powered\nCrop Prediction"
+              "Maximize Your Harvest\nwith AI-Powered Crop Prediction"
                   .text
                   .bold
                   .center
-                  .size(20)
+                  .size(16)
                   .white
                   .makeCentered(),
-              "Let Our Service Help You Plan for\nSuccess!"
+              "Let Our Service Help You Plan for Success!"
                   .text
-                  .bold
                   .center
-                  .size(15)
+                  .size(12)
                   .white
                   .makeCentered()
-                  .pOnly(top: 18, bottom: 12)
+                  .pOnly(top: 12, bottom: 25)
             ]),
           )
               .color(myGreen)

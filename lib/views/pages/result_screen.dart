@@ -20,6 +20,8 @@ class ResultScreen extends StatefulWidget {
 class _ResultScreenState extends State<ResultScreen> {
   final DataController controller = Get.put(DataController());
 
+  var data = Get.arguments;
+
   @override
   void initState() {
     Future.delayed(const Duration(seconds: 2), () {
@@ -62,11 +64,11 @@ class _ResultScreenState extends State<ResultScreen> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: [
-                        "Rajasthan".text.white.bold.size(24).make(),
+                        data[0].toString().text.white.bold.size(24).make(),
                         30.heightBox,
-                        "Ajmer".text.white.bold.size(24).make(),
+                        data[1].toString().text.white.bold.size(24).make(),
                         30.heightBox,
-                        "Alluvial Soil".text.white.bold.size(24).make()
+                        data[2].toString().text.white.bold.size(24).make()
                       ],
                     ).box.height(170).make(),
                   ]),

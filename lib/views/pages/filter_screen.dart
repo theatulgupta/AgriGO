@@ -22,6 +22,9 @@ class _FilterScreenState extends State<FilterScreen> {
   String? stateId;
   String? cityId;
   String? soilId;
+  String? state;
+  String? city;
+  String? soil;
 
   @override
   Widget build(BuildContext context) {
@@ -91,6 +94,7 @@ class _FilterScreenState extends State<FilterScreen> {
                                       controller.isLoading.value = true;
                                       controller.fetchCity(e.id);
                                       cityId = null;
+                                      state = e.name;
                                     },
                                     value: e.id,
                                     child: e.name.text
@@ -145,6 +149,7 @@ class _FilterScreenState extends State<FilterScreen> {
                                       controller.isLoading.value = true;
                                       controller.fetchSoil(e.id);
                                       cityId = null;
+                                      city = e.name;
                                     },
                                     value: e.id,
                                     child: e.name.text
@@ -195,6 +200,9 @@ class _FilterScreenState extends State<FilterScreen> {
                                 hint: "Select Soil Type".text.white.make(),
                                 items: controller.soilList.map((e) {
                                   return DropdownMenuItem(
+                                    onTap: () {
+                                      soil = e.name;
+                                    },
                                     value: e.id,
                                     child: e.name.length <= 15
                                         ? e.name.text.color(Vx.white).make()
@@ -236,7 +244,8 @@ class _FilterScreenState extends State<FilterScreen> {
                             cityId != null &&
                             soilId != null) {
                           controller.fetchCrops(stateId!, cityId!, soilId!);
-                          Get.to(() => ResultScreen());
+                          Get.to(() => ResultScreen(),
+                              arguments: [state, city, soil]);
                         } else {
                           Get.snackbar("Error fetching prediction",
                               "Please Select Required Fields");
