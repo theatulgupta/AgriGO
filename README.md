@@ -3,8 +3,8 @@ Rajasthan Hackathon 7.0 Project
 **Problem Statement-**
 Agriculture Farming is still a challenge. Farmers in villages have no access to new technological development in farming techniques. People who migrated form village but still have parental land and have no knowledge of farming can be hepled with **AgriGo**
 
-**Our Solution**
-
+**Approach**
+-
 We have created several features in our app that can help farmers and migrated people to increase their earnnig by doing farming.
 Some of our features are - 
 
@@ -23,7 +23,7 @@ Some of our features are -
 7. support of regional languages
 
 **Our Vision**
-
+-
 We want to train AI models on the data set that we have made by ourself.
 here is the link of data that we have scrapped from internet during the hackathon- 
 https://docs.google.com/spreadsheets/d/1jO3EFqhGGmhZovlqXV8qAce4-njZSAnLau3iyqzdBmI/edit?usp=drivesdk
@@ -40,11 +40,12 @@ https://www.figma.com/proto/PAQHwxktX9CGxEztKxXrSr/Untitled?node-id=2-18&scaling
 we have made a complete prototype of the services we want to offere on figma. all features are working on figma. **pls consider open this figma link for proper undersating of our mission and vission**
 
 **App Download Link-**
+-
 https://github.com/theatulgupta/AgriGO/raw/main/assets/AgriGO_alpha.apk
 
 Currently our app have the limited feature because of the time limit and unavailibility of data for training purpose. We have made database using mongoDB and react. we have saved the data from the data set into the database and fetched the data using api that we have created. 
 
 **Limitations**
-
+-
 Talking about limitation the main is availability of data set for training purpose. most of the time during the hackathon was gone on the data scraping for training of models. various feature of app need more time to complete.
 
