@@ -37,7 +37,7 @@ with this ai model we will predict the crops that can we grow in particular regi
 -
 https://www.figma.com/proto/PAQHwxktX9CGxEztKxXrSr/Untitled?node-id=2-18&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A4
 
-we have made a complete prototype of the services we want to offere on figma. all features are working on figma
+we have made a complete prototype of the services we want to offere on figma. all features are working on figma. **pls consider open this figma link for proper undersating of our mission and vission**
 
 **Our App**
 
