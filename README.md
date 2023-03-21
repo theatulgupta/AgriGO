@@ -34,12 +34,12 @@ with this ai model we will predict the crops that can we grow in particular regi
 
 
 **Prototype Link**
-
+_
 https://www.figma.com/proto/PAQHwxktX9CGxEztKxXrSr/Untitled?node-id=2-18&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A4
 **Must check Prototype for proper understaning of our mission & vision**
 
 **App Download Link-**
--
+_
 https://github.com/theatulgupta/AgriGO/raw/main/assets/AgriGO_alpha.apk
 Currently under-development. REST API with MongoDB as database is used to remote services.
 
