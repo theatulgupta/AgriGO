@@ -22,7 +22,7 @@ Some of our features are -
 
 7. support of regional languages
 
-**our vision**
+**Our Vision**
 
 We want to train AI models on the data set that we have made by ourself.
 here is the link of data that we have scrapped from internet during the hackathon- 
@@ -33,17 +33,18 @@ For training of AI model we want to train it on our data set such as **label enc
 with this ai model we will predict the crops that can we grow in particular region.
 
 
-**figma link of our complete prototype**
+**ProtoType Link**
 -
 https://www.figma.com/proto/PAQHwxktX9CGxEztKxXrSr/Untitled?node-id=2-18&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A4
 
 we have made a complete prototype of the services we want to offere on figma. all features are working on figma. **pls consider open this figma link for proper undersating of our mission and vission**
 
-**Our App**
+**App Download Link-**
+https://github.com/theatulgupta/AgriGO/raw/main/assets/AgriGO_alpha.apk
 
 Currently our app have the limited feature because of the time limit and unavailibility of data for training purpose. We have made database using mongoDB and react. we have saved the data from the data set into the database and fetched the data using api that we have created. 
 
-**limitations we faced**
+**Limitations**
 
 Talking about limitation the main is availability of data set for training purpose. most of the time during the hackathon was gone on the data scraping for training of models. various feature of app need more time to complete.
 
