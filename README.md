@@ -33,19 +33,20 @@ For training of AI model we want to train it on our data set such as **label enc
 with this ai model we will predict the crops that can we grow in particular region.
 
 
-**ProtoType Link**
--
-https://www.figma.com/proto/PAQHwxktX9CGxEztKxXrSr/Untitled?node-id=2-18&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A4
+**Prototype Link**
 
-we have made a complete prototype of the services we want to offere on figma. all features are working on figma. **pls consider open this figma link for proper undersating of our mission and vission**
+https://www.figma.com/proto/PAQHwxktX9CGxEztKxXrSr/Untitled?node-id=2-18&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A4
+**Must check Prototype for proper understaning of our mission & vision**
 
 **App Download Link-**
 -
 https://github.com/theatulgupta/AgriGO/raw/main/assets/AgriGO_alpha.apk
-
-Currently our app have the limited feature because of the time limit and unavailibility of data for training purpose. We have made database using mongoDB and react. we have saved the data from the data set into the database and fetched the data using api that we have created. 
+Currently under-development. REST API with MongoDB as database is used to remote services.
 
 **Limitations**
 -
-Talking about limitation the main is availability of data set for training purpose. most of the time during the hackathon was gone on the data scraping for training of models. various feature of app need more time to complete.
+• Limited Database.
+• Data scrapping for training & research under development.
+• App optimization is under development.
+
 
