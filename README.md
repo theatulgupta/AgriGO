@@ -29,21 +29,19 @@ here is the link of data that we have scrapped from internet during the hackatho
 https://docs.google.com/spreadsheets/d/1jO3EFqhGGmhZovlqXV8qAce4-njZSAnLau3iyqzdBmI/edit?usp=drivesdk
 
 For training of AI model we want to train it on our data set such as **label encoding of feature** which include **state list, district list, soil type in that district** and many more data we can include here such as soil ph, weather condition, time of year, etc.
-
 **one not coding of labels** which include the crops data that can be grown in the region.
-
-**with this ai model we will predict the crops that can we grow in particular region.**
+with this ai model we will predict the crops that can we grow in particular region.
 
 
 **figma link of our complete prototype**
+-
 https://www.figma.com/file/PAQHwxktX9CGxEztKxXrSr/Untitled?t=wnl5A5Ir64DeE7Nn-1
 
 we have made a complete prototype of the services we want to offere on figma. all features are working on figma
 
 **Our App**
 
-Currently our app have the limited feature because of the time limit and unavailibility of data for training purpose. 
-We have made database using mongoDB and react. we have saved the data from the data set into the database and fetched the data using api that we have created. 
+Currently our app have the limited feature because of the time limit and unavailibility of data for training purpose. We have made database using mongoDB and react. we have saved the data from the data set into the database and fetched the data using api that we have created. 
 
 **limitations we faced**
 
