@@ -8,11 +8,11 @@ Agriculture Farming is still a challenge. Farmers in villages have no access to 
 We have created several features in our app that can help farmers and migrated people to increase their earnnig by doing farming.
 Some of our features are - 
 
-1. Crop Prediction using ai
+1. Crop Prediction using AI
 
 2. Munafa Calculator (according to crop and land area)
 
-3. Voice search in religional languages with help of openAI
+3. TTS with regional languages.
 
 4. Kisan call centre button
 
@@ -20,7 +20,7 @@ Some of our features are -
 
 6. Crop recommendation for better returns on farming
 
-7. support of regional languages
+7. Support of Regional Language (coming soon)
 
 **Our Vision**
 -
