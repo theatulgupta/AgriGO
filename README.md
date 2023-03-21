@@ -1,7 +1,7 @@
 # AgriGO
 Rajasthan Hackathon 7.0 Project
 **Problem Statement-**
-Agriculture Farming is still a challenge. Farmers in villages have no access to new technological development in farming techniques. People who migrated form village but still have parental land and have no knowledge of farming can be hepled with farming.
+Agriculture Farming is still a challenge. Farmers in villages have no access to new technological development in farming techniques. People who migrated form village but still have parental land and have no knowledge of farming can be hepled with **AgriGo**
 
 **Our Solution**
 
